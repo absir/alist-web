@@ -23,7 +23,7 @@ export default defineConfig({
       transformIndexHtml: true,
     }),
   ],
-  base: process.env.NODE_ENV === "production" ? "/__dynamic_base__/" : "/",
+  base: process.env.NODE_ENV === "production" ? "./" : "/",
   // base: "/",
   build: {
     // target: "es2015", //next
