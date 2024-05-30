@@ -5,8 +5,8 @@ cd `dirname $0`
 args=$*
 
 if [[ -z "$args" ]] || [[ $args =~ "2" ]];then
-npm install
-npm run build
+pnpm install
+pnpm run build
 $cliDir/mnt/mng/vv.sh dist/vv.txt
 fi
 
