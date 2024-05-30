@@ -13,5 +13,5 @@ fi
 if [[ $args =~ "3" ]];then
 	rm -rf publish.tar.gz
 	tar -zcvf publish.tar.gz dist
-    $cliDir/mnt/mng/deployMng.sh da-assets-web publish.tar.gz /opt/mng test-1
+    $cliDir/mnt/mng/deployMng.sh dg-assets-web publish.tar.gz /opt/mng test-1
 fi
