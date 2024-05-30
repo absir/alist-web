@@ -1,34 +1,17 @@
-## Usage
+# 林散之数据库-alist
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+## 测试环境
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+### 部署
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+- mng: [da-assets-web](https://p2.dev.yiyiny.com/pltAdmin2/d-mng.html#/edit/JApp/dg-assets-web)
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+- jenkins: [da-assets-web](https://d-jenkins.dev.yiyiny.com/job/da-assets-web/)
 
-## Available Scripts
+- 部署地址: https://p2.dev.yiyiny.com/da-assets/
 
-In the project directory, you can run:
+### 后端
 
-### `npm dev` or `npm start`
+- 接口: https://da-assets.dev.yiyiny.com/
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+- 管理后台：https://p2.dev.yiyiny.com/pltAdmin2/da-assets.html#/dashboard
