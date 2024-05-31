@@ -16,12 +16,12 @@ export default defineConfig({
     legacy({
       targets: ["defaults"],
     }),
-    dynamicBase({
-      // dynamic public path var string, default window.__dynamic_base__
-      publicPath: " window.__dynamic_base__",
-      // dynamic load resources on index.html, default false. maybe change default true
-      transformIndexHtml: true,
-    }),
+    // dynamicBase({
+    //   // dynamic public path var string, default window.__dynamic_base__
+    //   publicPath: " window.__dynamic_base__",
+    //   // dynamic load resources on index.html, default false. maybe change default true
+    //   transformIndexHtml: true,
+    // }),
   ],
   base: process.env.NODE_ENV === "production" ? "./" : "/",
   // base: "/",
